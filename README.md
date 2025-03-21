@@ -45,6 +45,17 @@ print("Date type of weight is ",type(weight))
 #new work
 text = str(input("Enter a thing: "))
 
+#new work
+#take two strings as input form
+print("Enter the first string: ")
+strOne = int(input())
+print("Enter the second string: ")
+strtwo = int(input())
+
+#making third string using addition
+strThree = strOne + strtwo
+print("Third string = ",strThree)
+
 revtext = text[::-1]
 text = revtext
 
